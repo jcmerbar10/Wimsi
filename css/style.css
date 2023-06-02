@@ -1,0 +1,149 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+body{
+	font-family: 'Nunito', sans-serif;
+	background-color: #F6F3EC;
+	color: #453128;
+}
+header{
+	font-family: 'Nunito', sans-serif;
+	background-color: #F6F3EC;
+	border-bottom: 5px solid #119091;
+	padding: 10px 0;
+	font-weight: 500;
+	font-size: 20px;
+}
+#hero{
+	padding: 80px 0;
+}
+#hero h1{
+	font-weight: 700;
+	font-size: 70px;
+	font-family: "Poppins Bold";
+	font-weight: 700;
+	line-height: 70px;
+}
+#hero h3{
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+#hero p{
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+#sobre-nosotros h3{
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.boton-azul{
+	background-color:#A3C8BD;
+	border: 1px solid #A3C8BD;
+	border-radius: 40px;
+	text-transform: uppercase;
+	text-align:center;
+	padding: 10px;
+}
+
+.image2{
+	position: absolute;
+	top: 30px;
+}
+
+#accesorios-diferentes h2{
+color:#119091;
+	text-align: center;
+	margin-top: 225px;
+	font-family: "Nunito";
+	font-size: 50px;
+	font-weight: 700;
+	color:#453128;
+	font-family: "Poppins Bold"
+}
+#accesorios-diferentes p{
+	text-align: center;
+	font-weight: 700;
+}
+
+#sobre-wimsi h2{
+	font-family: "Poppins Bold";
+	color:#119091;
+	margin-left: 50px;
+	font-weight: 800;
+}
+
+#sobre-wimsi p{
+margin-left: 50px;
+color:#453128;
+font-size: 30px;
+font-weight: 600;
+}
+
+#sobre-wimsi img{
+	text-align: left;
+}
+footer{
+	background-color: #99BFBD;
+	text-align: left;
+}
+
+#categories{
+	background-image: url("../img/IMG_8992.jpg");
+	background-position: top center;
+	background-size: cover;
+	padding: 350px 0 350px;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+#categories h1{
+	margin-bottom: 100px;
+	font-weight: 800;
+	font-size: 100px;
+	color: white;
+}
+
+#ejemplos{
+	padding-top: 50px;
+	padding-bottom: 120px;
+}
+
+#ejemplos h3{
+	font-weight: 700;
+}
+
+#more h3{
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+#encontrar{
+	padding-top: 50px;
+}
+
+#encontrar h3{
+	font-weight: 700;
+	margin-top: 350px;
+}
+
+#encontrar .logo{
+	margin-top: 200px;
+}
+
+footer{
+	background-color: #119091;
+	padding: 20px 0px 20px;
+	
+}
+
+footer i{
+	font-size: 50px;
+	color: #196F63;
+}
+
+
+
