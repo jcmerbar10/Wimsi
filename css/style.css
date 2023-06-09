@@ -1,26 +1,24 @@
  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 
 body{
 	font-family: 'Nunito', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	background-color: #F6F3EC;
 	color: #453128;
 }
 header{
-	font-family: 'Nunito', sans-serif;
 	background-color: #F6F3EC;
 	border-bottom: 5px solid #119091;
 	padding: 10px 0;
-	font-weight: 500;
-	font-size: 20px;
 }
 #hero{
 	padding: 80px 0;
 }
 #hero h1{
-	font-weight: 700;
+	font-weight: 400;
 	font-size: 70px;
-	font-family: "Poppins Bold";
-	font-weight: 700;
 	line-height: 70px;
 }
 #hero h3{
@@ -62,7 +60,7 @@ color:#119091;
 	font-size: 50px;
 	font-weight: 700;
 	color:#453128;
-	font-family: "Poppins Bold"
+	font-family: 'Poppins Bold';
 }
 #accesorios-diferentes p{
 	text-align: center;
@@ -70,7 +68,7 @@ color:#119091;
 }
 
 #sobre-wimsi h2{
-	font-family: "Poppins Bold";
+	font-family: 'Poppins Bold';
 	color:#119091;
 	margin-left: 50px;
 	font-weight: 800;
@@ -86,13 +84,41 @@ font-weight: 600;
 #sobre-wimsi img{
 	text-align: left;
 }
+
+#lista{
+margin-top: 50px;
+}
+
+.fondo{
+	background-image: url("../img/fondo forma azul.png");
+	background-size: cover;
+	position: relative;
+	text-align: center;
+}
+
+.background-img{
+	background-image: url("../img/fondo-hero.png");
+	background-size: cover;
+	height: 90vh;
+	
+}
+.lab .la-facebook {
+	color: black !important;  
+	
+
+}
+
+.comentarios {
+	margin-top: 50px;
+}
+
 footer{
 	background-color: #99BFBD;
 	text-align: left;
 }
 
 #categories{
-	background-image: url("../img/IMG_8992.jpg");
+	background-image: url( "../img/fondo-categoria.jpg");
 	background-position: top center;
 	background-size: cover;
 	padding: 350px 0 350px;
@@ -127,11 +153,12 @@ footer{
 
 #encontrar h3{
 	font-weight: 700;
-	margin-top: 350px;
-}
+	margin-top: 100px;
+	margin-bottom: 100px
+}	
 
 #encontrar .logo{
-	margin-top: 200px;
+	margin-top: 10px;
 }
 
 footer{
@@ -144,6 +171,19 @@ footer i{
 	font-size: 50px;
 	color: #196F63;
 }
-
-
+#carousel h1{
+	color:#119091;
+	text-align: left;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+#carousel{
+	text-align: center;
+	color:#119091;
+	margin-bottom: 50px;
+	margin-top: 60px;
+}
+#carousel h5{
+	font-weight: 700;
+}
 

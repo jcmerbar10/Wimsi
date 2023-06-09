@@ -3,19 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home Page - Wimsi</title>
+<title>Wishlist - Wimsi</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-<link href="css/style.css" rel="stylesheet">	
-
+<link href="css/owl.carousel.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+	
 <!--SEO-->
-<meta name="Description" content="Home Page donde encontrarás tus aretes favoritos y todo tipo de estilo">
-<meta name="Keywords" content="entretenimiento,animales,comida,wimsi,juego,queso">
-
+<meta name="Description" content="Wishlist donde estan tus productos más deseados">
+<meta name="Keywords" content="pedidos,lista de deseos,recomendaciones">
+	
 </head>
-
-<body>
-	<header> 
+<header> 
+	 
 		<div class="container">
 			
  			<nav class="navbar navbar-expand-lg"> 
@@ -40,7 +41,7 @@
                             <a class="nav-link" href="iniciar sesion.html">Iniciar sesión</a>
                         </li>
 						<li class="nav-item">
-                            <a class="nav-link" href="wishlist.html"><i class="las la-user-circle"></i></a>
+                            <a class="nav-link active" href="wishlist.html"><i class="las la-user-circle"></i></a>
                         </li>
 						
                     </ul>
@@ -48,84 +49,49 @@
 			</nav>
 		</div>
 	</header>
-	<section id="hero"> 
-		<div class="container">
-			<div class="row">
-				<article class="col-lg-6 col-sm-12">
-					<h1>Encontrá los<br>accesorios<br>que te<br>definen</h1>
-					<p> Encontra todo tipo de accesorios diferentes<br> y divertidos. </p>
-				
-				</article>
-				<article class="col-lg-2 col-sm-4 col-12">
-					<img src="img/Cosas-13.png" alt="juego" class="img-fluid">
-					<a href="entretenimiento.html"><h3 class="text-center"> Entretenimiento</h3></a>
-				
-				</article>
-					<article class="col-lg-2 col-sm-4 col-12">
-						<img src="img/Cosas-12.png" alt="vaca" class="img-fluid">
-						<a href="categorias.html"> <h3>Animales </h3></a>
-				</article>
-					<article class="col-lg-2 col-sm-4 col-12">
-						<img src="img/Cosas-14.png" alt="queso" class="img-fluid">
-						<a href="comida-bebida.html"> <h3>Comida y Bebida</h3></a>
-				
-				</article>
-			</div>
-		</div>
-	
-	</section>
-	
-	<section id="sobre-nosotros">
-		<div class="container">
-			<div class="row">
-				
-				<article class="col-lg-2 col-sm-12">
-				<h3 class="boton-azul">sobre nosotros</h3>
-				</article>
-				
-				<article class="col-lg-3 col-sm-12">
-				
-				</article>
-				
-				<article class="col-lg-7 col-sm-12">
-				<img src="img/nubes y logo.png" alt="logo wimsi" class="img-fluid" width="750px">
-				</article>
-			</div>
-		</div>
-	</section>
-	
-	<section id="accesorios-diferentes">
+<body>
+	<section id="lista">
 	<div class="container">
-		<div class="row">
-			<article class="col=lg=6 col-sm-6">
-			
-			<img src="img/3.png" alt="forma3">
+	<div class="row">
+		<article class="col-lg-3 col-md-5 col-3 border-right">
+		<h2>Perfil</h2>
+		<img src="img/Foto perfil.png" alt="perfil" class="img-fluid">
+		<h4>Mi Cuenta</h4>
+			<p><a href="#">Mis Pedidos</a></p>
+			<p><a href="#">Direcciones</a></p>
+			<p><a href="#">Métodos de pago</a></p>
+		<h4>Servicio al Cliente</h4>
+		<p><a href="#">Notificaciones</a></p>
+		<p><a href="#">Preguntas frecuentas</a></p>
+		<h4>Favoritos</h4>
+			<p><a href="#">Lista de deseos</a></p>
+			<p><a href="#">Visto recientemente</a></p>
+		</article>
+		<article class="col-lg-6 col-md-7 col-9 linea">
+		<h2>Lista de Deseos</h2>
+			<div class="row">
+			<article class="col-lg-6 col-md-6 col-12"> 
+				<img src="img/honguitos.png" alt="hongos" class="img-fluid">
+				<p>Honguitos</p>
 			</article>
-			
-			<article class="col-lg-6 col-sm-6">
-			<h2>Accesorios<br>diferentes</h2>
-			<p>¡Encontrá el que mejor te define!</p>
+			<article class="col-lg-6 col-md-6 col-12">
+				<img src="img/harry.png" alt="harry" class="img-fluid">
+				<p>Harry Potter</p>
 			</article>
-	
-		</div>
-		</div>
-	</section>
-	
-	<section id="sobre-wimsi" class="background">
-	 	<div class="container">
-		<div class="row">
-			<article class="col=lg=6 col-sm-6 behindwimsi">
-			<img src="img/cosasobrewimsi.png" alt="sobre wimsi" class="img-fluid">
-		
-			
+			<article class="col-lg-6 col-md-6 col-12">
+				<img src="img/hermione.png" alt="hermione" class="img-fluid">
+				<p>Hermione</p>
 			</article>
-			
-			<article class="col-lg-6 col-sm-6">
-			<img src="img/fotonube.png" alt="forma2" width="500px" align="right">
-			</article>
-	
-		</div>
-		</div>
+			</div>
+		</article>
+		<article class="col-lg-3 col-md-12 col-12 fondo">
+			<br><br><br><br><br><h3>Recomendaciones</h3>
+			<p>Para ti</p>
+			<img src="img/ron.png" alt="Ron" class="img-fluid">
+			<img src="img/escudo.png" alt="escudo" class="img-fluid">
+		</article> 
+		</div>	
+	</div>
 	</section>
 	<footer>
 	<div class="container">
@@ -147,5 +113,6 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 </body>
+	
 	
 </html>
