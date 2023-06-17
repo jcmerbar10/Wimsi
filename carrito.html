@@ -3,22 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Entretenimiento</title>
+<title>Carrito</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 <link href="css/owl.carousel.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
-
-<!--SEO-->	
-<meta name="Description" content="Entretenimiento donde encontrarás tus aretes de entretenimiento favoritos">
-<meta name="Keywords" content="entretenimiento,consola,ping pong,harry,hermione,ron">
+		
+<!--SEO-->
+<meta name="Description" content="Carrito donde encontrarás tus pedidos ya seleccionados">
+<meta name="Keywords" content="carrito,resúmen,cantidad,checkout">	
 </head>
-
 <body>
-	
-	<header>
-	<div class="container">
+	<header> 
+	 
+		<div class="container">
 			
  			<nav class="navbar navbar-expand-lg"> 
 				<a class="navbar-brand" href= "index.html"> 
@@ -30,7 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="categorias.html">Categorías</a>
+                            <a class="nav-link" href="categorias.html">Categorías</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contactanos</a>
@@ -42,12 +41,11 @@
                             <a class="nav-link" href="iniciar sesion.html">Iniciar sesión</a>
                         </li>
 						<li class="nav-item">
-                            <a class="nav-link" href="wishlist.html"><i class="las la-user-circle"></i></a>
+                            <a class="nav-link active" href="wishlist.html"><i class="las la-user-circle"></i></a>
                         </li>
 						<li class="nav-item">
                             <a class="nav-link" href="carrito.html"><i class="las la-shopping-cart"></i></a>
                         </li>
-						
 						
                     </ul>
                 </div>
@@ -55,38 +53,65 @@
 		</div>
 	</header>
 	
-	
-	<section id="carousel">
+	<section id="carrito">
 		<div class="container">
-			<h1> Entretenimiento </h1>
-				<div class="owl-carousel app-carousel">
-					<article class="">
-						<img src= "img/consola-de-videojuegos.png" alt="consola" class="img-fluid">
-						<h5> Consola de Videojuegos</h5>
-					</article>
-					<article class="">
-						<img src= "img/ping-pong.png" alt="ping-pong" class="img-fluid">
-						<h5> Ping Pong</h5>
-					</article>
-					<article class="">
-						<img src= "img/hermione-harrypotter.png" alt="hermione" class="img-fluid">
-						<h5> Hermione Granger</h5>
-					</article>
-					<article class="">
-						<img src= "img/harry-potter.png" alt="harry" class="img-fluid">
-						<h5> Harry Potter</h5>
-					</article>
-						<article class="">
-						<img src= "img/ron-weasly.png" alt="ron" class="img-fluid">
-							<h5> Ron Weasly</h5>
-					</article>
+			<div class="row">
+				<article class="col-lg-6 col-sm-6">
+				<h1>Tu carrito</h1>
+				<div class="cuadro-celeste">
+					<h5> Resúmen</h5>
+						<div class="row mb-3">
+									<article class="col-lg-6 col-sm-12 mb-2">
+										<p> Producto</p>
+										<p><b>Subtotal</b></p>
+									</article>
+
+									<article class="col-lg-6 col-sm-12">
+										<h5></h5>
+										<p>Lps.100</p>
+										<p><b>Lps.100</b></p>
+									</article>
+						</div>
 				</div>
+					<img src="img/cantidad-aretes.png" alt="aretes" class="img-fluid">
+					
+					<article class="col-lg-6 col-sm-6">
+								<a href="checkout.html"><input type="submit" value="Checkout" class="btn btn-primary anadir" width= "600px" ></a>
+					</article>
+			</article>
+				
+			<article class="col-lg-6 col-sm-6">
+				<h1>También te podría gustar </h1>
+				<img src="img/nubes-fondo.png" alt="nubes" class="img-fluid">
+			</article>
+			
 		</div>
-		
+	</div>
+				
 	</section>
 	
 	
-	<footer class="animales">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<footer>
 	<div class="container">
 		<div class="row">
 			<article class="col-lg-4 col-12">
@@ -103,40 +128,52 @@
 	</div>
 </footer>
 	
-	<script src="js/bootstrap.min.js"></script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
 	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
-	
-	<script>
-	
-		$(function(){
-			
-			$(".app-carousel").owlCarousel({
-				items: 1,
-				loop: true,
-				autoplay: true,
-				smartSpeed: 800,
-				margin: 30,
-				center: true,
-				dots: true,
-				responsive: {
-					0: {
-						items: 1
-					},
-					480: {
-						items: 2
-					},
-					992: {
-						items: 3
-					}
-				}
-			});
-			
-		});
-		
-	</script>
-	
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SHZRPMXD5G"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-SHZRPMXD5G"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}

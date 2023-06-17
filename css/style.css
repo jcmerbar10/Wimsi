@@ -186,4 +186,91 @@ footer i{
 #carousel h5{
 	font-weight: 700;
 }
+#carrito {
+	background-color: #A3C8BD;
+}
+#carrito h1{
+	color: #ffffff;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 15px;
+}
+.cuadro-celeste{
+	background-color:#0AB0B2;
+}
+#carrito h1{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#carrito h5{
+	text-align: center;
+	color:#ffffff;
+}
+#carrito p{
+	text-align: center;
+	color:#FFFFFF;
+}
+.btn{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#preview{
+	margin-top: 50px;
+	font-family: "Nunito Bold";
+	font-weight: 600;
+	margin-bottom: 60px;
+
+}
+#preview h6{
+	margin-left: 30px;
+}
+
+.seccionb{
+	margin-top: 40px;
+}
+
+#preview h4{
+	font-weight: 700;
+	font-family: "Nunito Bold";
+}
+
+#preview h2{
+	font-weight: 700;
+	font-family: "Nunito Bold";
+}
+
+.anadir{
+	background-color: #A3C8BD;
+	font-family: "Nunito Bold";
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 100px;
+	padding-right: 100px;
+	font-size: 40px;
+	border-radius: 40px;
+}
+
+#resumen-text h5{
+	color: white;
+}
+
+.form-control{
+	border-radius: 30px !important;
+	border-color: #0AB0B2;
+	border-width: medium;
+	
+		
+}
+
+#checkout-bg-img{
+	background-image: url("../img/Checkout_BGHERO.png");
+	background-position: relative;
+	background-size: cover;
+	height: 230vh;
+	background-color: #F6F3EC;
+	width: 100%;
+}
+
 
